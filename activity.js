@@ -1,4 +1,4 @@
-[
+var active = [
 {
 id: "3654799922",
 type: "CreateEvent",

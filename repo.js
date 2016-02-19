@@ -1,4 +1,4 @@
-var repoItems [
+var repoItems = [
 {
 id: 50970750,
 name: "CSS-Layouts",

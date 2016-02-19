@@ -1,85 +1,102 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Github recreation</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+    <link href=
+    "https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel=
+    "stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="top">
+            <input name="seacrh" placeholder="Search GitHub" type="text">
+            <ul class="top-right">
+                <li>Pull request</li>
+                <li>Issues</li>
+                <li>Gist</li>
+            </ul>
+            <ul class="top-left">
+                <li>bell</li>
+                <li>plus</li>
+                <li>small picture</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <aside class="left">
+            <img alt="image" src="images/mine.jpg">
+            <h1>Dina O'Connor</h1>
+            <h3>DinaOC</h3>
+            <hr>
+            <p>Joined on Feb 24, 2015</p>
+            <hr>
+            <div class="">
 
 
+        </aside>
+        <section class="right">
+            <nav class="right-nav">
+                <ul class="right-links">
+                    <li>
+                        <a href="#" rel="contributions">Contributions</a>
+                    </li>
+                    <li>
+                        <a href="#" rel="repositories">Repositories</a>
+                    </li>
+                    <li>
+                        <a href="#" rel="public-activity">Public activity</a>
+                    </li>
+                </ul><button name="button" type="button">Edit profile</button>
+            </nav>
+            <div class="main-body">
+                <section class="repositories"></section>
+                <section class="public-activity"></section>
+                <div class="contributions">
+                  <nav class="mid-box">
+                    <div class="popular-repos">
+                      <nav class="mid-box">
+                      <h4>Popular repositories</h4>
+                  </nav>
+                    </div>
 
-<header>
-<nav class="top">
-  <input type="text" name="seacrh" placeholder="Search GitHub">
+                    <ul class="popular">
+                        <li>
+                            <a href="#">time-to-read</a>
+                        </li>
+                        <li>
+                            <a href="#">DinaOC.github.io</a>
+                        </li>
+                        <li>
+                            <a href="#">FirstJS</a>
+                        </li>
+                        <li>
+                            <a href="#">FirstWebsite</a>
+                        </li>
+                        <li>
+                            <a href="#">Fizz-Buzz</a>
+                        </li>
+                    </ul>
+                </div>
 
-  <ul class="top-right">
-    <li>Pull request</li>
-    <li>Issues</li>
-    <li>Gist</li>
-      </ul>
+            </div>
+        </section>
+    </section>
 
-      <ul class="top-left">
-        <li>bell</li>
-        <li>plus</li>
-        <li>small picture</li>
-
-      </ul>
-</nav>
-</header>
-
-<section class ="main">
-<aside class="left">
-  <img src="images/mine.jpg" alt="image" />
-  <h1>Dina O'Connor</h1>
-  <h3>DinaOC</h3>
-  <p>
-    Joined on Feb 24, 2015
-  </p>
-
-</aside>
-
-<section class="right">
-  <nav class="right-nav">
-<ul class ="right-links">
-  <li><a href="#">Contributions</a></li>
-  <li><a href="#">Repositories</a></li>
-  <li><a href="#">Public activity</a></li>
-
-</ul>
-  <button type="button" name="button">Edit profile</button>
-  </nav>
-
-<div class="popular-repos">
-  <nav class= "mid-box">
-      <h4>Popular repositories</h4>
-  </nav>
-
-
-  <ul class="popular">
-  <li><a href="#">time-to-read</a></li>
-  <li><a href="#">DinaOC.github.io</a></li>
-  <li><a href="#">FirstJS</a></li>
-  <li><a href="#">FirstWebsite</a></li>
-  <li><a href="#">Fizz-Buzz</a></li>
-</ul>
-</div>
-
-</section>
-
-</section>
-
-
-
-
-
-
-  <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
-  <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
-    <script type="text/javascript" src="user.js"></script>
-    <script type="text/javascript" src= "repo.js"></script>
-    <script type="text/javascript" src ="activity.js"></script>
-    <script type="text/javascript" src="main.js"></script>
+    <script charset="utf-8" src="bower_components/moment/moment.js">
+    </script>
+    <script charset="utf-8" src="bower_components/underscore/underscore.js">
+    </script>
+    <script charset="utf-8" src="bower_components/jquery/dist/jquery.js">
+    </script>
+    <script src="user.js" type="text/javascript">
+    </script>
+    <script src="repo.js" type="text/javascript">
+    </script>
+    <script src="activity.js" type="text/javascript">
+    </script>
+    <script src="main.js" type="text/javascript">
+    </script>
 </body>
 </html>

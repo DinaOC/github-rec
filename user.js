@@ -1,5 +1,5 @@
 
-var myInfo
+var myInfo =
 {
 login: "DinaOC",
 id: 11184179,

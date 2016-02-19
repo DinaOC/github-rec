@@ -94,6 +94,11 @@ p {
 
 }
 
+hr {
+  width: 68%;
+  margin-left: 32px;
+}
+
 button {
 margin-left: 230px;
 width: 120px;
@@ -129,14 +134,13 @@ list-style: none;
 }
 
 .popular-repos {
-  width:90%;
+  width:100%;
   border: 1px solid black;
 
 }
 h4 {
   margin-left: 38px;
   margin: 0 auto;
-  border-bottom: 1px solid #66666A;
   padding: 10px;
   font-size: 15px;
   font-family: sans-serif;
@@ -145,7 +149,18 @@ h4 {
 
 .mid-box {
   background-color: #F5F5F5;
+  width:90%;
+}
 
 
 
+.names {
+  font-size: 17px;
+  color:#4078C0;
+  font-weight: bolder;
+}
+
+.dates {
+  font-size: 15px;
+  margin-left: 32px;
 }
